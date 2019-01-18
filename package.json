@@ -1,8 +1,8 @@
 {
-  "name": "plugin-build",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
+  "name": "foreach-polyfill",
+  "version": "1.0.2",
+  "description": "a polyfill",
+  "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
@@ -16,6 +16,19 @@
   "scripts": {
     "build": "gulp build"
   },
-  "author": "Spring",
+  "author": "huangfuchunfeng",
+  "keywords": [
+    "array",
+    "foreach",
+    "foreach-polyfill"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangfuchunfeng/foreach-polyfill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/huangfuchunfeng/foreach-polyfill/issues"
+  },
+  "homepage": "https://github.com/huangfuchunfeng/foreach-polyfill#readme",
   "license": "ISC"
 }
