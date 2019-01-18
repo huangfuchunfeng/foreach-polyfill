@@ -23,8 +23,10 @@
 - 或者
 
 ```javascript
-import { polyfill } './index.js'
 
+npm i foreach-polyfill -S
+
+import { polyfill } 'foreach-polyfill'
 polyfill()
 
 ```
